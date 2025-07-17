@@ -1,4 +1,4 @@
-#!/usr/bin env
+#!/usr/bin zsh
 
 npm run build
 cp -r dist/assets ../../Git/kylehovey.github.io
