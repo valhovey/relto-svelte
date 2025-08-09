@@ -1,4 +1,4 @@
-import type { Project } from "../types";
+import type {Project} from "../types";
 import {
   faChessBoard,
   faHiking,
@@ -126,7 +126,7 @@ export const projects: Project[] = [
     brief: "8-Bit Computer designed from the ground up",
     description:
       'One fateful night of playing Minecraft with my best friend and I was convinced that I had to learn more about the inner workings of a CPU. We had just installed a mod that added basic digital components to the game, and my friend was constructing a processor. I knew nothing about architecture at that point, but I wanted to learn more. I began my journey reading "Digital Computer Electronics" by Malvino and started constructing the basic modular components of a computer. Eventually I had constructed a processor of my own design. The final product had EM interference which induced signalling issues, but the knowledge I gained benefits me to this day. I made a website and tutorial to aid anyone who wishes to acheive the same goal. I know of a few individuals so far that have used my instructions to build their own CPU.',
-    link: "http://8-bitspaghetti.com",
+    link: "https://8-bitspaghetti.com",
   },
   {
     title: "Fireplace",
