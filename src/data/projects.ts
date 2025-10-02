@@ -66,7 +66,7 @@ export const projects: Project[] = [
     brief: "Neural Net for parsing D'ni numerals",
     description:
       "This was my last hackathon project. The D'ni numeral system is from the world of Myst, a game series that I am a very large fan of. The system is base-25, and has a rotational glyph system with a base-5 sub-pattern. I wanted to see if I could reproduce the MNIST convnet example using D'ni numbers. To generate training data, I wrote the segments in isolation and created a script to produce combinatorial sets of the individual segments I created. In the end, the network had over 99% validation accuracy and responded well to novel handwritten D'ni digits.",
-    link: "https://github.com/kylehovey/myst-net",
+    link: "https://github.com/valhovey/myst-net",
   },
   {
     title: "Vector Wind",
