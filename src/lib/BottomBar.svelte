@@ -35,11 +35,5 @@
     <a target="_blank" rel="me" href="https://mathstodon.xyz/@speleo">
       Mathstodon
     </a>
-    <span class="divider">|</span>
-    <a
-      href="https://kylehovey-resolutions.vercel.app"
-      target="_blank"
-      rel="noreferrer">Resolutions</a
-    >
   </div>
 </div>
