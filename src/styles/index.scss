@@ -462,6 +462,10 @@ div.photography-button-container {
   justify-content: center;
   margin-top: 15px;
 
+  a {
+    text-decoration: none;
+  }
+
   button.photography-portfolio-link {
     color: $fg;
     background-color: lighten($bg, 4%);

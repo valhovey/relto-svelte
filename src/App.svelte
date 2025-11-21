@@ -36,15 +36,17 @@
           </ul>
           <hr class="divider" />
           <div class="photography-button-container">
-            <button
-              class="photography-portfolio-link"
-              on:click={openPhotoPortfolio}
+            <a
+              href="https://app.astrobin.com/u/valence#gallery"
+              target="_blank"
             >
-              <div class="title-section">
-                <FontAwesomeIcon icon={faCameraRetro} />
-                <span class="title">Photography Portfolio</span>
-              </div>
-            </button>
+              <button class="photography-portfolio-link">
+                <div class="title-section">
+                  <FontAwesomeIcon icon={faCameraRetro} />
+                  <span class="title">Astrophotography</span>
+                </div>
+              </button>
+            </a>
           </div>
         {/if}
         {#if $currentView === View.Project}
