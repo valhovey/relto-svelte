@@ -31,9 +31,5 @@
     <a href="blog">Blog</a>
     <span class="divider">|</span>
     <a href="MATH_5620">Math 5620</a>
-    <span class="divider">|</span>
-    <a target="_blank" rel="me" href="https://mathstodon.xyz/@speleo">
-      Mathstodon
-    </a>
   </div>
 </div>
