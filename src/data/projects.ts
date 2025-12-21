@@ -12,8 +12,16 @@ import {
   faMicrochip,
   faFire,
   faTree,
+  faKitchenSet,
+  faLaptopCode,
+  faCodeCompare,
+  faCertificate,
 } from "@fortawesome/free-solid-svg-icons";
 
+const chefDexImage = "images/projects/chef_dex.png";
+const diffractionImage = "images/projects/diffraction.png";
+const haskellImage = "images/projects/haskell.png";
+const balatroImage = "images/projects/balatro.png";
 const calSimImage = "images/projects/cal_sim.png";
 const mystNetImage = "images/projects/myst_net.png";
 const fireplaceImage = "images/projects/fireplace.png";
@@ -28,6 +36,46 @@ const villeinImage = "images/projects/villein_translator.png";
 const automataExplorationImage = "images/projects/automata_exploration.png";
 
 export const projects: Project[] = [
+  {
+    title: "Chef-Dex",
+    icon: faKitchenSet,
+    image: chefDexImage,
+    year: "2025",
+    brief: "Recursive recipe browser for Risk of Rain 2",
+    description:
+      "In the roguelike videogame Risk of Rain 2 there is a mechanic added in the Alloyed Collective DLC that allows you to combine items to create new ones that benefit your build. Some ingredients themselves are also craftable, making for a multi-dimensional puzzle of finding alternate recipes to get items. I built a small Unity C# mod to export the recipes from the game runtime then created a web browser that displays recipe trees dynamically for each craftable item.",
+    link: "https://chef-dex.vercel.app/",
+  },
+  {
+    title: "A Tour of Haskell",
+    icon: faLaptopCode,
+    image: haskellImage,
+    year: "2025",
+    brief: "Educational overview of professional Haskell",
+    description:
+      "At Mercury, I have had the joy of getting to work with Haskell professionally over multiple years. I'm grateful that I get to work with such a wonderful language, and I have written both a blog post and presented a talk on how to approach professional Haskell as a newcomer. I based the talk on what I wish I could have known going into learning Haskell my first time.",
+    link: "https://github.com/valhovey/a-tour-of-haskell",
+  },
+  {
+    title: "State With Elm",
+    icon: faCodeCompare,
+    image: balatroImage,
+    year: "2025",
+    brief: "My talk on FE state management",
+    description:
+      "At a local UtahJS meetup I gave a talk on one of my favorite web frameworks: Elm. Elm inspired much of the state models of React, the error messages in Rust, and has roots in Haskell as an ML type language. To demonstrate state management, I built a minimal Balatro clone that does hand score calculation.",
+    link: "https://github.com/valhovey/rethinking-state-with-elm",
+  },
+  {
+    title: "Star Spike Simulations",
+    icon: faCertificate,
+    image: diffractionImage,
+    year: "2025",
+    brief: "Simulating telescope star spikes",
+    description:
+      "My Newtonian reflector telescope has a non-standard offset secondary vane structure, and I was curious how this would change the star spikes in my images. I used the Poppy diffraction modeling library by Space Telescope Science Institute to simulate different offsets, misalignments, and support structures. I used the results to help diagnose minor calibration errors so I can tune my secondary more easily.",
+    link: "https://github.com/valhovey/star-simulations?tab=readme-ov-file",
+  },
   {
     title: "Automata Browser",
     icon: faChessBoard,
