@@ -30,7 +30,7 @@
     <span class="divider">|</span>
     <a href="blog">Blog</a>
     <span class="divider">|</span>
-    <a href="Resolutions">resolutions.html</a>
+    <a href="resolutions.html">Resolutions</a>
     <span class="divider">|</span>
     <a href="MATH_5620">Math 5620</a>
   </div>
