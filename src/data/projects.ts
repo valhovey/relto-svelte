@@ -2,7 +2,7 @@ import type {Project} from "../types";
 import {
   faChessBoard,
   faHiking,
-  faCubes,
+  faSatellite,
   faProjectDiagram,
   faWind,
   faWaveSquare,
@@ -26,7 +26,7 @@ const calSimImage = "images/projects/cal_sim.png";
 const mystNetImage = "images/projects/myst_net.png";
 const fireplaceImage = "images/projects/fireplace.png";
 const eulerGolfImage = "images/projects/euler_golf.png";
-const shaderToyImage = "images/projects/shader_toy.png";
+const gaiaMaryImage = "images/projects/hail_mary_dithered.png";
 const vectorWindImage = "images/projects/vector_wind.png";
 const fieryFurnaceImage = "images/projects/fiery_furnace.png";
 const eightBitSpaghettiImage = "images/projects/8_bit_spaghetti.png";
@@ -36,6 +36,16 @@ const villeinImage = "images/projects/villein_translator.png";
 const automataExplorationImage = "images/projects/automata_exploration.png";
 
 export const projects: Project[] = [
+  {
+    title: "GAIA Mary",
+    icon: faSatellite,
+    image: gaiaMaryImage,
+    year: "2026",
+    brief: "Recreation of the starmap of Project Hail Mary",
+    description:
+      "Using the GAIA DR3 all sky survey data from the European Space Agency, I recreated an accurate starmap of our local system inspired by the in-ship map in the movie Project Hail Mary. I have been obsessed with this story and have seen the movie multiple times. I happened to be working with the GAIA data to see if I could render accurate Milky Way skyboxes. That work ended up turning into a hail mary of my own to try and recreate my favorite UI in the whole film.",
+    link: "https://valhovey.github.io/gaia-mary",
+  },
   {
     title: "Chef-Dex",
     icon: faKitchenSet,
@@ -95,16 +105,6 @@ export const projects: Project[] = [
     description:
       "Pre-pandemic, my partner Hannah and I took a trip down to Arches National Park in Utah. The highlight was exploring the Fiery Furnace: a labrynth of ancient sandstone with no main trail, only meandering boulder routes and washes. I exported the route data (recorded with my watch) and interpolated photo time-stamps with location time-stamps to create an interactive map of our path with pictures along the way using Mapbox.",
     link: "/FieryFurnace/index.html",
-  },
-  {
-    title: "Shader Toy",
-    icon: faCubes,
-    image: shaderToyImage,
-    year: "2020",
-    brief: "Various shaders written by me",
-    description:
-      "I have been having a lot of fun learning how to write shaders. GLSL seemed like an intimidating topic at first, but once I realized it was essentially a very parrellized graphing calculator I started having a lot of fun and have been picking up some more techniques. As of writing this, I have worked with Ray Marching, Conformal Mapping, and 2D interference patterns.",
-    link: "https://www.shadertoy.com/user/kylehovey",
   },
   {
     title: "Myst Net",

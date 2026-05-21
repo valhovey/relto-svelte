@@ -22,15 +22,13 @@
     </li>
   </ul>
   <div class="links">
+    <a href="blog">Blog</a>
+    <span class="divider">|</span>
     <a
       href="https://github.com/valhovey/resume/raw/master/val_hovey_resume.pdf"
     >
       Resume
     </a>
-    <span class="divider">|</span>
-    <a href="blog">Blog</a>
-    <span class="divider">|</span>
-    <a href="resolutions.html">Resolutions</a>
     <span class="divider">|</span>
     <a href="MATH_5620">Math 5620</a>
   </div>
