@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { View, type PortfolioPhoto } from "../types";
+  import { View } from "../types";
   import PhotoThumbnail from "./PhotoThumbnail.svelte";
   import PortfolioPhotoDisplay from "./PortfolioPhotoDisplay.svelte";
   import { currentView } from "../state/views";

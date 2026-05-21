@@ -64,7 +64,7 @@
       context.restore();
     };
 
-    const maxSpeed: number = 1.0;
+    const maxSpeed = 1.0;
     const radius = 200;
     const separationStrength = 0.5;
     const alignmentStrength = 2;
@@ -121,7 +121,7 @@
       let avgDir: Vector = [0, 0];
       let avgPos: Vector = [0, 0];
       let avgDiff: Vector = [0, 0];
-      let arousal: number = 0;
+      let arousal = 0;
 
       for (const other of universe) {
         const dist = metric(other.pos, me.pos);

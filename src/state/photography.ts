@@ -1,4 +1,4 @@
-import {PortfolioPhoto} from "../types";
+import type {PortfolioPhoto} from "../types";
 import {writable} from "svelte/store";
 
 function createState() {

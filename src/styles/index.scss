@@ -1,3 +1,5 @@
+@use "sass:color";
+
 $bg: #282828;
 $fg: #fbf1c7;
 $hl: #83a598;
@@ -132,7 +134,7 @@ div.container {
 
       button {
         color: $fg;
-        background-color: lighten($bg, 4%);
+        background-color: color.adjust($bg, $lightness: 4%);
         border: none;
         padding: 15px;
         margin: 0px;
@@ -144,7 +146,7 @@ div.container {
         transition: 0.5s;
 
         &:hover {
-          background-color: lighten($bg, 10%);
+          background-color: color.adjust($bg, $lightness: 10%);
           transition: 0.5s;
           cursor: pointer;
         }
@@ -192,7 +194,7 @@ div.container {
 
       img {
         margin: 5px;
-        border: 10px solid lighten($fg, 30%);
+        border: 10px solid color.adjust($fg, $lightness: 30%);
         max-width: calc(100% - 30px);
         max-height: 200px;
       }
@@ -222,7 +224,7 @@ div.container {
         justify-content: center;
 
         &:hover {
-          background-color: lighten($bg, 10%);
+          background-color: color.adjust($bg, $lightness: 10%);
           transition: 0.5s;
           cursor: pointer;
         }
@@ -448,7 +450,7 @@ button.back-button {
       height: auto;
       max-width: 80vw;
       max-height: 80vh;
-      border: 15px solid lighten($fg, 30%);
+      border: 15px solid color.adjust($fg, $lightness: 30%);
     }
   }
 }
@@ -468,7 +470,7 @@ div.photography-button-container {
 
   button.photography-portfolio-link {
     color: $fg;
-    background-color: lighten($bg, 4%);
+    background-color: color.adjust($bg, $lightness: 4%);
     border: none;
     padding: 25px;
     margin: 0px;
@@ -490,7 +492,7 @@ div.photography-button-container {
     }
 
     &:hover {
-      background-color: lighten($bg, 10%);
+      background-color: color.adjust($bg, $lightness: 10%);
       transition: 0.5s;
       cursor: pointer;
     }
