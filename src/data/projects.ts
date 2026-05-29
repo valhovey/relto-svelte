@@ -3,6 +3,7 @@ import {
   faChessBoard,
   faHiking,
   faSatellite,
+  faRocket,
   faProjectDiagram,
   faWind,
   faWaveSquare,
@@ -27,6 +28,7 @@ const mystNetImage = "images/projects/myst_net.png";
 const fireplaceImage = "images/projects/fireplace.png";
 const eulerGolfImage = "images/projects/euler_golf.png";
 const gaiaMaryImage = "images/projects/hail_mary_dithered.png";
+const gaiaAtlasImage = "images/projects/gaia_atlas_dithered.png";
 const vectorWindImage = "images/projects/vector_wind.png";
 const fieryFurnaceImage = "images/projects/fiery_furnace.png";
 const eightBitSpaghettiImage = "images/projects/8_bit_spaghetti.png";
@@ -45,6 +47,16 @@ export const projects: Project[] = [
     description:
       "Using the GAIA DR3 all sky survey data from the European Space Agency, I recreated an accurate starmap of our local system inspired by the in-ship map in the movie Project Hail Mary. I have been obsessed with this story and have seen the movie multiple times. I happened to be working with the GAIA data to see if I could render accurate Milky Way skyboxes. That work ended up turning into a hail mary of my own to try and recreate my favorite UI in the whole film.",
     link: "https://valhovey.github.io/gaia-mary",
+  },
+  {
+    title: "GAIA Atlas",
+    icon: faRocket,
+    image: gaiaAtlasImage,
+    year: "2026",
+    brief: "3D atlas of stars, exoplanets, constellations, and more",
+    description:
+      "This is a sequel to my GAIA Mary project which adds features letting you explore our local star system. Go to stars, view 3D constellations, chart interstellar travel and calculate the time it would take to visit neighboring systems. Planetary locations are accurate on load, and information about dozens of named stars are included in the map. Visit exoplanetary systems and learn about their host stars. Most of all, have fun.",
+    link: "https://valhovey.github.io/gaia-atlas",
   },
   {
     title: "Chef-Dex",
@@ -116,16 +128,16 @@ export const projects: Project[] = [
       "This was my last hackathon project. The D'ni numeral system is from the world of Myst, a game series that I am a very large fan of. The system is base-25, and has a rotational glyph system with a base-5 sub-pattern. I wanted to see if I could reproduce the MNIST convnet example using D'ni numbers. To generate training data, I wrote the segments in isolation and created a script to produce combinatorial sets of the individual segments I created. In the end, the network had over 99% validation accuracy and responded well to novel handwritten D'ni digits.",
     link: "https://github.com/valhovey/myst-net",
   },
-  {
-    title: "Vector Wind",
-    icon: faWind,
-    image: vectorWindImage,
-    year: "2017",
-    brief: "Vector field visualization tool",
-    description:
-      "I was inspired by a Reddit post that used HTML Canvas to create a beautiful vector field visualization. Unfortunately, the poster did not release their source code, so I decided to make my own version. Vector fields are entered by typing in a Javascript function that takes two inputs (x,y) and returns a two-element array. The result is visualized by creating particles that get pushed around in the field like dust in the wind. The source code can be found on my GitHub.",
-    link: "vectorwind/index.html",
-  },
+  // {
+  //   title: "Vector Wind",
+  //   icon: faWind,
+  //   image: vectorWindImage,
+  //   year: "2017",
+  //   brief: "Vector field visualization tool",
+  //   description:
+  //     "I was inspired by a Reddit post that used HTML Canvas to create a beautiful vector field visualization. Unfortunately, the poster did not release their source code, so I decided to make my own version. Vector fields are entered by typing in a Javascript function that takes two inputs (x,y) and returns a two-element array. The result is visualized by creating particles that get pushed around in the field like dust in the wind. The source code can be found on my GitHub.",
+  //   link: "vectorwind/index.html",
+  // },
   {
     title: "CALSim",
     icon: faWaveSquare,
